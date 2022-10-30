@@ -9,7 +9,8 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-  users: 600,
+   users: 600,     // Apenas o dono pode gravar e ler seus dados
+   questions: 660  // Qualquer um logado pode gravar ou ler os dados
 });
 
 app.use(cors());
@@ -20,4 +21,4 @@ app.listen(port);
 
 console.log("Server is running on port:", port);
 
-/* A senha do Kenzinho é 123456 */
+/* A senha do Monitor é admin */
