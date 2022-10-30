@@ -9,8 +9,9 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-   users: 600,     // Apenas o dono pode gravar e ler seus dados
-   questions: 660  // Qualquer um logado pode gravar ou ler os dados
+   users: 600,
+   questions: 660,
+   responses: 640
 });
 
 app.use(cors());
