@@ -4,6 +4,7 @@
       "email": "admin@prosupport.com",
       "password": "$2a$10$28AQCwznf/DwtlP/a6SZSO/eV93uBrXfQn54CSW6JKs3pHf1rIq0S",
       "name": "Monitor",
+      "admin": true,
       "bio": "loren ipsum",
       "id": 1,
       "image": ""
@@ -11,33 +12,26 @@
   ],
   "questions": [
     {
-      "projectName": "Nu Kenzie",
+      "title": "Nu Kenzie",
       "description": "Estou tentando formatar o valor com o toLocaleString porém quando coloco números negativos o sinal fica no lugar errado. Deveria ser \"R$ -20,00\" e aparece \"-R$ 20,00\"",
-      "gadgets": [
-        "React",
-        "useState",
-        "TypeScript"
-      ],
+      "techs": ["React", "TypeScript"],
       "id": 1,
       "userId": 1
     },
     {
-      "name": "Nu Kenzie",
-      "description": "Estou tentando",
-      "gadgets": [
-        "React",
-        "TypeScript"
-      ],
+      "title": "Kenzie Hub",
+      "description": "Não estou conseguindo tipar o useState que tem um objeto com informações do usuário.",
+      "techs": ["React", "TypeScript"],
       "userId": 1,
       "id": 2
     }
   ],
   "responses": [
     {
-      "title": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...), da forma que está sendo demostrada abaixo.",
+      "title": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...), da forma que está sendo demostrada abaixo. \\n `interface iCreateTechData {\\n    title: string \\n    status: string \\n}`",
       "description": " `interface iCreateTechData {\\n    title: string \\n    status: string \\n}` ",
       "image": "",
-      "questionId": 1,
+      "questionId": 2,
       "userId": 1,
       "id": 1
     }

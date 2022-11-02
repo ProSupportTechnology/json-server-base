@@ -9,9 +9,9 @@ const router = jsonServer.router("db.json");
 app.db = router.db;
 
 const rules = auth.rewriter({
-   users: 660,
-   questions: 660,
-   responses: 640
+  users: 660,
+  questions: 660,
+  responses: 640
 });
 
 app.use(cors());
@@ -21,5 +21,3 @@ app.use(router);
 app.listen(port);
 
 console.log("Server is running on port:", port);
-
-/* A senha do Monitor é admin */
