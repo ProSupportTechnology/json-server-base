@@ -7,33 +7,60 @@
       "admin": true,
       "bio": "loren ipsum",
       "id": 1,
-      "image": ""
+      "image": "https://i.pinimg.com/564x/79/01/1e/79011e95b87b3523388329b500740c1d.jpg"
+    },
+    {
+      "email": "usuario@email.com",
+      "password": "$2a$10$rbgRqavrHmTQBmR.lAjCbu3YNLpjwrMDJBycxpwQJGZZVRrqbnH9a",
+      "name": "Usuário Teste",
+      "bio": "Biografia do usuário",
+      "id": 2,
+      "image": "https://i.pinimg.com/564x/27/e5/93/27e59307291762cf9ea054811b4ab5f7.jpg"
     }
   ],
   "questions": [
     {
       "title": "Nu Kenzie",
       "description": "Estou tentando formatar o valor com o toLocaleString porém quando coloco números negativos o sinal fica no lugar errado. Deveria ser \"R$ -20,00\" e aparece \"-R$ 20,00\"",
-      "techs": ["React", "TypeScript"],
+      "tech": "React",
       "id": 1,
       "userId": 1
     },
     {
       "title": "Kenzie Hub",
       "description": "Não estou conseguindo tipar o useState que tem um objeto com informações do usuário.",
-      "techs": ["React", "TypeScript"],
+      "tech": "React",
       "userId": 1,
       "id": 2
+    },
+    {
+      "title": "Nu Kenzie20",
+      "description": "Não consigo xaxaxa usar o useEffect",
+      "tech": "React",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "title": "Nu Kenzie20",
+      "description": "Não consigo xaxaxa usar o useEffect",
+      "tech": "React",
+      "userId": 3,
+      "id": 4
     }
   ],
   "responses": [
     {
-      "title": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...), da forma que está sendo demostrada abaixo. \\n `interface iCreateTechData {\\n    title: string \\n    status: string \\n}`",
-      "description": " `interface iCreateTechData {\\n    title: string \\n    status: string \\n}` ",
+      "description": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...).",
       "image": "",
       "questionId": 2,
       "userId": 1,
       "id": 1
+    },
+    {
+      "description": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...)",
+      "questionId": 1,
+      "userId": 1,
+      "id": 2
     }
   ]
 }
