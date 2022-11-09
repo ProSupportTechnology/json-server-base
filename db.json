@@ -3,19 +3,11 @@
     {
       "email": "admin@prosupport.com",
       "password": "$2a$10$28AQCwznf/DwtlP/a6SZSO/eV93uBrXfQn54CSW6JKs3pHf1rIq0S",
-      "name": "Monitor",
+      "name": "ProSupport",
       "admin": true,
-      "bio": "loren ipsum",
+      "bio": "Desenvolvedores especializados nas tecnologias mais usadas, com o intuito de prestar suporte para programadores profissionais",
       "id": 1,
-      "image": "https://i.pinimg.com/564x/79/01/1e/79011e95b87b3523388329b500740c1d.jpg"
-    },
-    {
-      "email": "usuario@email.com",
-      "password": "$2a$10$rbgRqavrHmTQBmR.lAjCbu3YNLpjwrMDJBycxpwQJGZZVRrqbnH9a",
-      "name": "Usuário Teste",
-      "bio": "Biografia do usuário",
-      "id": 2,
-      "image": "https://i.pinimg.com/564x/27/e5/93/27e59307291762cf9ea054811b4ab5f7.jpg"
+      "image": "https://www.guiacommarketing.com.br/wp-content/uploads/2021/06/conheca-o-curso-pacote-full-stack-da-danki-code.jpg"
     }
   ],
   "questions": [
@@ -25,42 +17,15 @@
       "tech": "React",
       "id": 1,
       "userId": 1
-    },
-    {
-      "title": "Kenzie Hub",
-      "description": "Não estou conseguindo tipar o useState que tem um objeto com informações do usuário.",
-      "tech": "React",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "title": "Nu Kenzie20",
-      "description": "Não consigo xaxaxa usar o useEffect",
-      "tech": "React",
-      "userId": 3,
-      "id": 3
-    },
-    {
-      "title": "Nu Kenzie20",
-      "description": "Não consigo xaxaxa usar o useEffect",
-      "tech": "React",
-      "userId": 3,
-      "id": 4
     }
   ],
   "responses": [
     {
       "description": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...).",
       "image": "",
-      "questionId": 2,
-      "userId": 1,
-      "id": 1
-    },
-    {
-      "description": "Para tipar o useState de um objeto você deve criar uma interface inserindo todas as chaves do objeto e decidindo que tipo de texto vai ser inserido(string, number, boolean, etc...)",
       "questionId": 1,
       "userId": 1,
-      "id": 2
+      "id": 1
     }
   ]
 }
